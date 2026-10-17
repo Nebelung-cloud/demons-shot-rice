@@ -1,0 +1,37 @@
+/* demonshot: база Void/Crypt, акцент Crimson, без скруглений */
+@define-color accent_color #C7303D;
+@define-color accent_bg_color #C7303D;
+@define-color accent_fg_color #E9DFDD;
+@define-color destructive_color #E0525C;
+@define-color destructive_bg_color #C7303D;
+@define-color destructive_fg_color #E9DFDD;
+@define-color window_bg_color #151116;
+@define-color window_fg_color #E9DFDD;
+@define-color view_bg_color #0D0B0E;
+@define-color view_fg_color #E9DFDD;
+@define-color headerbar_bg_color #151116;
+@define-color headerbar_fg_color #E9DFDD;
+@define-color headerbar_border_color #2B1820;
+@define-color headerbar_backdrop_color #151116;
+@define-color popover_bg_color #151116;
+@define-color popover_fg_color #E9DFDD;
+@define-color dialog_bg_color #151116;
+@define-color dialog_fg_color #E9DFDD;
+@define-color card_bg_color #1A1519;
+@define-color card_fg_color #E9DFDD;
+@define-color sidebar_bg_color #0D0B0E;
+@define-color sidebar_fg_color #E9DFDD;
+@define-color sidebar_border_color #2B1820;
+@define-color sidebar_backdrop_color #0D0B0E;
+@define-color borders #2B1820;
+
+/* gtk3 (Adwaita) */
+@define-color theme_bg_color #151116;
+@define-color theme_fg_color #E9DFDD;
+@define-color theme_base_color #0D0B0E;
+@define-color theme_text_color #E9DFDD;
+@define-color theme_selected_bg_color #4A2236;
+@define-color theme_selected_fg_color #E9DFDD;
+@define-color insensitive_fg_color #7A6870;
+
+* { border-radius: 0; }

@@ -1,0 +1,30 @@
+# demonshot: ~/dir ❯ — каталог костью, ветка Rose, ошибка — Crimson
+add_newline = false
+format = "$directory$git_branch$git_status$cmd_duration$character"
+
+[directory]
+style = "#E9DFDD"
+truncation_length = 3
+truncation_symbol = "…/"
+read_only = " †"
+read_only_style = "#C7303D"
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[git_branch]
+symbol = ""
+style = "#B8487A"
+format = "[$branch]($style) "
+
+[git_status]
+style = "#7A6870"
+format = "([$all_status$ahead_behind]($style) )"
+
+[cmd_duration]
+min_time = 2000
+style = "#7A6870"
+format = "[$duration]($style) "
+
+[character]
+success_symbol = "[❯](#B8487A)"
+error_symbol = "[❯](#C7303D)"
+vimcmd_symbol = "[❮](#B8487A)"
