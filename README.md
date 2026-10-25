@@ -105,6 +105,13 @@ Fonts: Grenze Gotisch, UnifrakturCook, Monomakh, Montserrat, JetBrains Mono.
 
 <div align="center"><img src="assets/divider-rule.svg" width="720" alt=""></div>
 
+<h2 align="center">Contributors</h2>
+
+- [**Nebelung-cloud**](https://github.com/Nebelung-cloud)
+- [**Claude**](https://claude.com/claude-code)
+
+<div align="center"><img src="assets/divider-swag.svg" width="720" alt=""></div>
+
 <h2 align="center">License</h2>
 
 [GPL-3.0](LICENSE). Fonts in `config/fonts/` are under the [SIL Open Font License](config/fonts/OFL.txt);
